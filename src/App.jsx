@@ -41,6 +41,7 @@ const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 80%;
   .table-container{
     width: 80%;
     display: flex;
@@ -52,10 +53,10 @@ const Container = styled.div`
     border-radius: 15px;
     padding: 20px;
     width: 100%;  
+    margin-top: 100px;
   }
   .body{
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
     gap: 40px;
   }
